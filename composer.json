@@ -1,0 +1,23 @@
+{
+    "name": "usmonaliyev/laravel-route-logger",
+    "description": "This package write log when project handle request.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Usmonaliyev\\LaravelRouteLogger\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Temur5319436",
+            "email": "temur5319436@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Usmonaliyev\\LaravelRouteLogger\\LaravelRouteLoggerServiceProvider"
+            ]
+        }
+    }
+}
